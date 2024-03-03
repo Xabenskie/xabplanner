@@ -58,7 +58,7 @@ export function DatePicker({
 			{isShow && (
 				<div
 					className={cn(
-						'absolute p-2.5 slide bg-sidebar z-10 shadow rounded-lg',
+						'absolute p-2.5 bg-sidebar z-10 shadow rounded-lg',
 						position === 'left' ? '-left-4' : ' -right-4'
 					)}
 					style={{

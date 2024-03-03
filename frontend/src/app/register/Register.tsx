@@ -28,7 +28,6 @@ export function Register() {
 		onSuccess() {
 			toast.success('Successfully register!')
 			reset()
-			push('/auth')
 		},
 		onError() {
 			toast.error('User registered!')
@@ -71,7 +70,7 @@ export function Register() {
 
 				<div className='flex items-center gap-5 justify-center'>
 					{/* <Button onClick={() => setIsLoginForm(true)}>Login</Button> */}
-					<Button onClick={() => {}}>Register</Button>
+					<Button onClick={() => push('/')}>Register</Button>
 				</div>
 			</form>
 		</div>

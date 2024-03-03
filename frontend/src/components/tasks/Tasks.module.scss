@@ -8,7 +8,7 @@
 		min-height: 79vh;
 
 		.card {
-			@apply rounded border border-border mt-5 p-4 relative bg-[#0e0f0f];
+			@apply rounded-md border border-border mt-5 p-4 relative bg-[#0e0f0f];
 
 			&.completed {
 				@apply italic line-through opacity-50;
@@ -16,7 +16,7 @@
 
 			.cardHeader {
 				@apply flex items-center mb-2;
-				font-size: 93%;
+				font-size: 100%;
 
 				> input:last-child {
 					@apply ml-2;

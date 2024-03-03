@@ -38,7 +38,7 @@ export function TimeBlockingList() {
 								/>
 							))
 						) : (
-							<div>Add the first time-block on the right form</div>
+							<div>Add the first time-block</div>
 						)}
 					</SortableContext>
 				</div>

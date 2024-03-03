@@ -13,7 +13,7 @@ import { SingleSelect } from '../ui/tasks/SingleSelect'
 import { COLORS } from './colors.data'
 
 export function TimeBlockingForm() {
-	const { register, control, watch, reset, handleSubmit, getValues } =
+	const { register, control, watch, reset, handleSubmit } =
 		useFormContext<TypeTimeBlockFromState>()
 
 	const existsId = watch('id')
